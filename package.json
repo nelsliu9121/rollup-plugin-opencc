@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-opencc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "OpenCC plugin for Rollup bundler",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
