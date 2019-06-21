@@ -6,6 +6,10 @@
   "module": "lib/index.mjs",
   "author": "Nelson Liu <nelsliu9121@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsliu9121/rollup-plugin-opencc"
+  },
   "scripts": {
     "test": "mocha --require ts-node/register test/*.ts",
     "build": "rollup -c"
