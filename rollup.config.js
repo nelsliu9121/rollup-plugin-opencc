@@ -4,10 +4,10 @@ import typescript from 'rollup-plugin-typescript2';
 import pkg from './package.json';
 
 export default {
-	input: 'src/index.ts',
-	plugins: [ autoExternal(), json(), typescript() ],
-	output: [
-		{ file: pkg.main, format: 'cjs' },
-		{ file: pkg.module, format: 'es' }
-	]
+    input: 'src/index.ts',
+    plugins: [ autoExternal(), json(), typescript() ],
+    output: [
+        { file: pkg.main, format: 'cjs' },
+        { file: pkg.module, format: 'es' }
+    ]
 };
